@@ -33,7 +33,7 @@ export default class CeldasView extends Component {
       })
       .catch(error => {
         Alert.alert("No hay celdas");
-        navigation.navigate("Zonas");
+        navigation.navigate("Zonas");        
       });
   }
 
